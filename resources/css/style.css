@@ -131,3 +131,10 @@ nav .container {
 .description {
   color: black;
 }
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  background-color: black;
+  padding: 5rem 0;
+}
