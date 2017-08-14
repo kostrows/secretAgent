@@ -60,11 +60,9 @@ body {
   font-weight: bold;
 }
 
-/* nav */
+/* Navigation */
 nav {
   background-color: firebrick;
-  position: relative;
-  top: 16rem;
   padding: .75rem 0;
 }
 
@@ -78,7 +76,58 @@ nav li {
   list-style: none;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 nav .container {
   justify-content: flex-end;
   display: flex;
+}
+
+/* Product Grid */
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+  justify-content: space-between;
+}
+
+.gadget {
+  border: 4px solid black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gadget img {
+  height: 9rem;
+  padding: 2rem 0;
+  margin: auto;
+}
+
+#glasses {
+  height: 4.5rem;
+  width: 9rem;
+}
+
+.gadget span {
+  background-color: black;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.info {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+.description {
+  color: black;
 }
